@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-family: 'Rubik', sans-serif;
+}
+.main{
+    height:100%;
+    width:100%;
+    background-color: rgb(169, 169, 169);
+}
+.nav{
+    height:15%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+i{
+    font-size: 2vw;
+    color:white;
+    padding:0 30px;
+}
+i:hover{
+    transition: all 0.7s ease;
+    cursor:pointer;
+    transform: scale(1.5);
+    color:rgb(136, 136, 136);
+}
+.left i{
+    padding:0 2vw;
+}
+.left{
+    color:black;
+    overflow: hidden;
+    margin:0 40px
+    
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.center img{
+ height:70px;
+ width:100px;
+}
+.center img:hover{
+    transition:all ease 0.7s;
+transform: scale(1.2);
+
+}
+.right{
+    
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height:100%;
+    width:20.8%;
+    background-color: rgb(34, 32, 32);
+}
+.content{
+
+    height:85%;
+    width:100%;
+    display:flex;
+}
+.lcont{
+    height:100%;
+    width:20%;
+    overflow: hidden;
+}
+.shoe{
+    height:8vw;
+    width:8vw;
+    background-color:rgb(193, 189, 189);
+    border-radius: 50%;
+    margin:50px;
+    
+}
+.shoe img{
+    height:100%;
+    width:100%;
+    transform: scale(1.5);
+}
+#topshoe{
+    background-color: white;
+}
+#topshoe img{
+    height:100%;
+    width:110%;
+    transform: rotate(30deg);
+    filter: drop-shadow(3px 8px 1px);
+    
+}
+#topshoe img:hover{
+    transition: all ease 1s;
+    transform:scale(1.6)
+
+}
+#lastshoe img{
+    height:60%; 
+   width:70%;
+   transform: scale(2);
+   filter:drop-shadow(1px 2px 10px)
+}
+#lastshoe img:hover{
+    transition: all ease 0.7s;
+    transform:scale(2.5)
+}
+#midshoe img:hover{
+    transition: all ease 0.7s;
+    transform:scale(2);
+}
+
+.mcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:80%;
+    background-image:url('https://www.seekpng.com/png/full/11-114089_clipart-transparent-stock-ftestickers-lines-circle-gradient-lines.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    overflow: hidden;
+}
+
+.mcont img{
+    height:70%;
+    width:70%;
+    transform: rotate(30deg);
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.mcont img:hover{
+    transition: all ease 1s;
+    transform:scale(1.2) rotate(10deg);
+}
+
+.rcont{
+    height:100%;
+    width:25%;
+    background-color:rgb(34, 32, 32);
+    border-bottom-left-radius: 100%; 
+    /* border-top-left-radius: 100%;  */
+    position: relative;
+}
+.info{
+    width: fit-content;
+    margin-top:40%;
+    position: relative;
+    left:-10px;
+    color:rgb(255, 255, 255);
+    
+}
+.info h1{
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.info h3{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+
+.info p{
+    font-size: 1.2vw;
+    width:80%;
+    margin-bottom:20px;
+    color:rgb(231, 222, 222);
+    font-weight: 600;
+}
+
+button {
+    padding:15px;
+    border:none;
+    border-radius: 40px;
+    font-weight: 500;
+    background-color: black;
+    color:white;
+    box-shadow: 10px 2px 10px white;
+}
+button:hover{
+    transition:all ease 0.7s;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 2px 17px rgb(8, 8, 8);
+    font-weight: 700;
+    cursor:pointer;
+}
